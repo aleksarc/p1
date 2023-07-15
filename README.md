@@ -43,3 +43,21 @@ Happy coding!
 The website is based on the Git template provided by Code Institute: https://github.com/Code-Institute-Org/ci-full-template
 
 How to reverse order of elements while using float:right for the menu items: https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
+
+
+# Problems Resolution
+
+When pushing commits to Git from Visual Studio Code, the following error may be perceived:
+
+    Enumerating objects: 75, done.
+    Counting objects: 100% (75/75), done.
+    Delta compression using up to 16 threads
+    Compressing objects: 100% (51/51), done.
+    error: RPC failed; HTTP 500 curl 22 The requested URL returned error: 500
+    send-pack: unexpected disconnect while reading sideband packet
+    Writing objects: 100% (69/69), 160.13 MiB | 5.99 MiB/s, done.
+    Total 69 (delta 22), reused 0 (delta 0), pack-reused 0
+    fatal: the remote end hung up unexpectedly
+    Everything up-to-date
+
+The resolution was to set "git config http.postBuffer 524288000" as per post in Stack Overflow: https://stackoverflow.com/questions/2702731/git-fails-when-pushing-commit-to-github
