@@ -31,8 +31,28 @@ body {
     letter-spacing: 4px;
 }
 
+/* align logo and menu links horizontaly */
+#menu,
+#logo {
+    line-height: 75px;
+}
+
 #menu>li {
     list-style-type: none;
     margin-right: 30px;
     display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* style the links to provide a better visibility of where the viewers are in the webpage */
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
