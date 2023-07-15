@@ -28,7 +28,7 @@ body {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 /* align logo and menu links horizontaly */
@@ -41,6 +41,8 @@ body {
     list-style-type: none;
     margin-right: 30px;
     display: inline-block;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #888686;
 }
 
 #menu a {
@@ -57,13 +59,18 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text */
+
+#cover-text {
+    color: #fff;
+}
 
 /* set the hero image to stay below the header and equal sizes for image and container */
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -84,6 +91,30 @@ body {
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Calligraffitti', cursive;
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background: linear-gradient(rgb(15 15 15), rgb(13 13 13 / 60%));
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#cover-text>h3 {
+    text-align: right;
+    padding-right: 10px;
 }
