@@ -19,6 +19,7 @@ body {
     float: left;
     width: 115px;
     height: 80px;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -104,7 +105,7 @@ body {
     height: 200px;
 
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 40px;
 
     background: linear-gradient(rgb(15 15 15), rgb(13 13 13 / 60%));
 
@@ -117,4 +118,21 @@ body {
 #cover-text>h3 {
     text-align: right;
     padding-right: 10px;
+}
+
+/* gallery */
+
+#gallery {
+    height: 600px;
+    text-align: center;
+}
+
+#gallery>h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #888686;
+}
+
+.projects {
+    width: 24%;
+    display: inline-block;
 }
