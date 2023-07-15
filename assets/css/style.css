@@ -124,7 +124,9 @@ body {
 
 #gallery {
     height: 600px;
+    width: 100%;
     text-align: center;
+    position: relative;
 }
 
 #gallery>h1 {
@@ -132,7 +134,21 @@ body {
     text-shadow: 1px 1px 1px #888686;
 }
 
+#projects-outer {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
 .projects {
     width: 24%;
-    display: inline-block;
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+}
+
+.projects-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
 }
