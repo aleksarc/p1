@@ -38,14 +38,14 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 Happy coding!
 
-# References
+## References
 
 The website is based on the Git template provided by Code Institute: https://github.com/Code-Institute-Org/ci-full-template
 
 How to reverse order of elements while using float:right for the menu items: https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
 
 
-# Problems Resolution
+## Problems Resolution
 
 When pushing commits to Git from Visual Studio Code, the following error may be perceived:
 

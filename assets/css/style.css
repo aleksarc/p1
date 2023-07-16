@@ -129,15 +129,19 @@ body {
     position: relative;
 }
 
-#gallery>h1 {
+#gallery-header {
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #888686;
+    font-weight: 300;
+    font-size: 200%;
+    text-align: center;
+    margin: 50px 0;
 }
 
 #projects-outer {
     height: 600px;
-    width: 100%;
-    position: absolute;
+    width: 80%;
+    display: inline-block;
 }
 
 .projects {
