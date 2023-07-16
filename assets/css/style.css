@@ -15,6 +15,7 @@ body {
 }
 
 /* headings and logo */
+
 #logo {
     float: left;
     width: 115px;
@@ -155,4 +156,33 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 100%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-left,
+#footer-center,
+#footer-right {
+    width: 33%;
+    display: inline-block;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 200%;
+    color: #3a3a3a;
+    letter-spacing: 50px;
 }
