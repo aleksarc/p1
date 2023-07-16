@@ -38,9 +38,15 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 Happy coding!
 
+## Sources
+
+Footer icons provided by https://fontawesome.com/
+
+Website template provided by Code Institute: https://github.com/Code-Institute-Org/ci-full-template
+
 ## References
 
-The website is based on the Git template provided by Code Institute: https://github.com/Code-Institute-Org/ci-full-template
+This website was built with asistance of Code Institute professors, tutors and mentors as a result of deliverables for Project 1 or the course "Diploma in Full Stack Software Development (E-commerce Applications)".
 
 How to reverse order of elements while using float:right for the menu items: https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
 

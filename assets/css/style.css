@@ -205,6 +205,20 @@ footer {
     display: inline-block;
 }
 
+.contact-details {
+    text-align: center;
+}
+
+.contact-details>li {
+    display: inline-block;
+}
+
+.contact-details i {
+    font-size: 200%;
+    color: #3a3a3a;
+    letter-spacing: 50px;
+}
+
 .social-networks {
     text-align: center;
 }
