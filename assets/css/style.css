@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -121,6 +122,53 @@ body {
     padding-right: 10px;
 }
 
+/* info */
+
+#info-outer {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 225px;
+}
+
+#info-left,
+#info-right {
+    width: 50%;
+    height: auto;
+    display: table-cell;
+}
+
+#info-left>h1 {
+    font-size: 590%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #888686;
+    letter-spacing: 10px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+#info-right-header {
+    font-size: x-large;
+    text-align: left;
+    text-shadow: 1px 1px 2px #888686;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#info-right-text {
+    padding: 0px 10px 10px 120px;
+    letter-spacing: 5px;
+    line-height: 45px;
+    text-shadow: 1px 1px 2px #888686;
+    margin-left: 20px;
+}
+
+#info-right-text li {
+    list-style-type: none;
+    text-align: left;
+    font-size: x-large;
+}
+
 /* gallery */
 
 #gallery {
@@ -139,12 +187,14 @@ body {
     margin: 50px 0;
 }
 
+/* wrap project elements to set alignment */
 #projects-outer {
     height: 600px;
     width: 80%;
     display: inline-block;
 }
 
+/* define position of projects within the outer div */
 .projects {
     width: 24%;
     padding: 10px;
@@ -152,6 +202,7 @@ body {
     display: table-cell;
 }
 
+/* project's thumbnail definition */
 .projects-thumbnail {
     border: 1px solid #ddd;
     border-radius: 4px;
