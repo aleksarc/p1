@@ -52,6 +52,8 @@ How to reverse order of elements while using float:right for the menu items: htt
 
 Reference for aligning elemets on the top of a container: https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html
 
+How to create a fixed header or footer using CSS: https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php
+
 ## Problems Resolution
 
 When pushing commits to Git from Visual Studio Code, the following error may be perceived:

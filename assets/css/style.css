@@ -17,6 +17,21 @@ body {
 
 /* headings and logo */
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+}
+
+#header-outer {
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #faf8f8;
+}
+
 #logo {
     float: left;
     width: 115px;
@@ -58,10 +73,6 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 /* hero image and cover text */
 
 /* set the hero image to stay below the header and equal sizes for image and container */
@@ -70,6 +81,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: 8%;
 }
 
 #hero-image {
@@ -108,6 +120,7 @@ body {
     right: 20%;
     border-radius: 15px;
     position: absolute;
+    box-shadow: 5px 5px 5px grey;
 }
 
 #cover-text>h3 {
@@ -179,7 +192,7 @@ body {
     margin: 50px 0;
 }
 
-/* wrap project elements to set alignment */
+/* wraper project elements to set alignment */
 #projects-outer {
     height: 600px;
     width: 80%;
@@ -239,6 +252,7 @@ footer {
     text-align: center;
 }
 
+/* footer wraper to align 3 divs */
 #footer-outer {
     height: 100px;
     width: 100%;
@@ -444,10 +458,14 @@ footer {
 /* For medium screen sizes up to 950px wide */
 @media screen and (max-width: 950px) {
 
+    #menu {
+        display: inline;
+        letter-spacing: 1px;
+    }
+
     #menu-outer {
-        clear: left;
-        float: left;
         margin-left: 30px;
+        font-size: 90%;
     }
 
     #cover-text {
