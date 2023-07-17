@@ -192,10 +192,11 @@ body {
 
 /* define position of projects within the outer div */
 .projects {
-    width: 24%;
+    width: 20%;
     padding: 10px;
     text-align: left;
-    display: table-cell;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* project's thumbnail definition */
@@ -223,12 +224,8 @@ body {
     margin: 50px 0 10px 0;
 }
 
-#tools-outer {
-    display: inline;
-}
-
 .tools-icons {
-    display: table-cell;
+    display: inline-block;
 }
 
 .tools-icons img {
@@ -289,4 +286,71 @@ footer {
     font-size: 200%;
     color: #3a3a3a;
     letter-spacing: 50px;
+}
+
+/* Media queries */
+
+/* For larger to medium screen sizes up to 1200px wide */
+
+@media screen and (max-width: 1200px) {
+
+    #info {
+        width: 90%;
+        height: auto;
+    }
+
+    #info-outer {
+        width: 90%;
+        height: auto;
+        margin: 40px auto 40px auto;
+        padding: 0;
+    }
+
+    #info-left {
+        width: 50%;
+        height: auto;
+        display: inline-block;
+        padding: 0;
+    }
+
+    #info-left>h1 {
+        font-size: 200%;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px #888686;
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 10px 0 10px 0;
+        padding: 0;
+    }
+
+    #info-right {
+        width: 50%;
+        height: auto;
+        display: inline-block;
+        padding: 0;
+        margin: 10px 0 10px 0;
+    }
+
+    #info-right-header {
+        font-size: medium;
+        text-align: left;
+        text-shadow: 1px 1px 2px #888686;
+        padding: 5px;
+        margin: 10px 0 10px 0;
+    }
+
+    #info-right-text {
+        padding: 0;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px #888686;
+        margin: 10px 0 0 70px;
+    }
+
+    #info-right-text li {
+        list-style-type: none;
+        text-align: left;
+        font-size: medium;
+    }
+
+
 }

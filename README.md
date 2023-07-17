@@ -50,6 +50,7 @@ This website was built with asistance of Code Institute professors, tutors and m
 
 How to reverse order of elements while using float:right for the menu items: https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
 
+Reference for aligning elemets on the top of a container: https://www.w3docs.com/snippets/css/how-to-align-inline-block-elements-to-top-of-the-container.html
 
 ## Problems Resolution
 
