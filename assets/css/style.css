@@ -64,10 +64,6 @@ body {
 
 /* hero image and cover text */
 
-#cover-text {
-    color: #fff;
-}
-
 /* set the hero image to stay below the header and equal sizes for image and container */
 #hero-outer {
     height: 600px;
@@ -99,6 +95,7 @@ body {
 }
 
 #cover-text {
+    color: #fff;
     font-size: 130%;
     font-family: 'Calligraffitti', cursive;
     letter-spacing: 2px;
@@ -108,7 +105,7 @@ body {
     padding-left: 40px;
     background: linear-gradient(rgb(15 15 15), rgb(13 13 13 / 60%));
     bottom: 55px;
-    right: 437px;
+    right: 20%;
     border-radius: 15px;
     position: absolute;
 }
@@ -171,7 +168,6 @@ body {
     height: 600px;
     width: 100%;
     text-align: center;
-    position: relative;
 }
 
 #portifolio-header {
@@ -290,19 +286,77 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screen sizes up to 1200px wide */
+/* For large to medium screen sizes up to 1636px wide */
+@media screen and (max-width: 1636px) {
 
+    /* hero section */
+    #cover-text {
+        font-size: 130%;
+        font-family: 'Calligraffitti', cursive;
+        letter-spacing: 2px;
+        width: 980px;
+        height: 200px;
+        padding-top: 40px;
+        padding-left: 50px;
+        background: linear-gradient(rgb(15 15 15), rgb(13 13 13 / 60%));
+        bottom: 55px;
+        right: 20%;
+        border-radius: 15px;
+        position: absolute;
+    }
+
+    /* portifolio */
+    #portifolio {
+        margin-top: 300px;
+    }
+
+    /* skills */
+    .tools-icons img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        padding: 20px;
+    }
+
+    /* footer */
+    .social-networks i {
+        letter-spacing: 20px;
+    }
+
+    .contact-details i {
+        letter-spacing: 20px;
+    }
+}
+
+/* For large to medium screen sizes up to 1200px wide */
 @media screen and (max-width: 1200px) {
 
+    /* hero section */
+    #cover-text {
+        font-size: 130%;
+        font-family: 'Calligraffitti', cursive;
+        letter-spacing: 2px;
+        width: 680px;
+        height: 200px;
+        padding-top: 40px;
+        padding-left: 50px;
+        background: linear-gradient(rgb(15 15 15), rgb(13 13 13 / 60%));
+        bottom: 55px;
+        right: 20%;
+        border-radius: 15px;
+        position: absolute;
+    }
+
+    /* info section */
     #info {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     #info-outer {
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin: 40px auto 40px auto;
+        margin: 80px auto 80px auto;
         padding: 0;
     }
 
@@ -351,6 +405,40 @@ footer {
         text-align: left;
         font-size: medium;
     }
+
+    /* portifolio */
+
+    #portifolio {
+        height: auto;
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+
+    #portifolio-header {
+        margin: 0 auto 20px auto;
+        font-size: 300%;
+    }
+
+    #projects-outer {
+        height: 300px;
+    }
+
+    /* skills */
+    .tools-icons img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        padding: 15px;
+    }
+
+    #skills-header {
+        font-size: 300%;
+        margin: 10px 0 10px 0;
+    }
+
+    #skills>h2 {
+        margin: 0 0 30px 0;
+    }
 }
 
 /* For medium screen sizes up to 950px wide */
@@ -360,7 +448,29 @@ footer {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 20px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+}
+
+/* For large to medium screen sizes up to 790px wide */
+@media screen and (max-width: 790px) {
+
+    /* footer */
+    #footer-left,
+    #footer-center,
+    #footer-right {
+        width: 32%;
+    }
+
+    .contact-details i {
+        letter-spacing: 15px;
+    }
+
+    .social-networks i {
+        letter-spacing: 15px;
+    }
+
 }
