@@ -54,6 +54,8 @@ Reference for aligning elemets on the top of a container: https://www.w3docs.com
 
 How to create a fixed header or footer using CSS: https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php
 
+Control opacity of a background image without impacting other elements: https://coder-coder.com/background-image-opacity/
+
 ## Problems Resolution
 
 When pushing commits to Git from Visual Studio Code, the following error may be perceived:

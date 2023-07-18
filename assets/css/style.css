@@ -246,6 +246,78 @@ header {
     padding: 30px;
 }
 
+/* contact */
+
+#contact {
+    width: 100%;
+    height: 800px;
+    margin-top: 4%;
+    position: relative;
+}
+
+/* pseudo element to control opacity of the background image */
+#contact-outer:before {
+    content: "";
+    background-image: url(../images/hero-image.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.50;
+}
+
+.contact-form {
+    margin: 150px 0 0 10%;
+    color: #fff;
+    background-color: #3a3b3bde;
+    max-width: 400px;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    opacity: 1;
+    position: relative;
+    text-shadow: 1px 1px 1px #888686;
+}
+
+.contact-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #3156fd;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #3156fdc7;
+    color: #fafafa;
+    display: block;
+}
+
+.send-button:hover {
+    background-color: #fafafa;
+    color: #3156fd;
+}
+
 /* footer */
 
 footer {
