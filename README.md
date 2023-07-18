@@ -116,4 +116,4 @@ The style.css file was validated by https://jigsaw.w3.org/css-validator/ and the
 - To Code Institute for providing the material in the LMS portal, specially the module "Love Runing" that shows students how to put in practice the theory learned.
 - Logo created using https://looka.com/ and adjusted in Adobe Photoshop by myself.
 - Hero image created using Adobe Firefly and adjusted in Adobe Photoshop by myself.
-- Pictures in the Portifolio section were provided by Ivan Gauto that kindly allowed me to create this project with his requirements for a professional architect portifolio.
+- Pictures in the Portifolio section and icons in the Skills section were provided by Ivan Gauto that kindly allowed me to create this project with his requirements for a professional architect portifolio website.
