@@ -58,12 +58,12 @@ This is the last section of the webpage and it's located at the bottom. It conta
 ![footer screenshot](./assets/images/readme/footer-ss.png)
 
 ## Sources
-- Webpage template provided by Code Institute: [CI full template](https://github.com/Code-Institute-Org/ci-full-template)
+- Webpage template provided by Code Institute: [CI full template](https://GitHub.com/Code-Institute-Org/ci-full-template)
 - Footer icons provided by [Font Awesome](https://fontawesome.com/)
 
 ## Bugs and resolution
 
-### Pushing code to Github
+### Pushing code to GitHub
 
 When pushing commits to Git from Visual Studio Code, the following error may be perceived:
 
@@ -78,7 +78,7 @@ When pushing commits to Git from Visual Studio Code, the following error may be 
     fatal: the remote end hung up unexpectedly
     Everything up-to-date`
 
-The resolution was to set "git config http.postBuffer 524288000" as per post in Stack Overflow: [Git fails when pushing commit to github](https://stackoverflow.com/questions/2702731/git-fails-when-pushing-commit-to-github)
+The resolution was to set "git config http.postBuffer 524288000" as per post in Stack Overflow: [Git fails when pushing commit to GitHub](https://stackoverflow.com/questions/2702731/git-fails-when-pushing-commit-to-GitHub)
 
 ### Errors in the code found upon validation
 
@@ -131,12 +131,12 @@ The style.css file was validated by [W3C CSS Validation Service](https://jigsaw.
 
 ### Google Lighthouse test
 
-Upon deployment to Github pages, the webpage was teseted with the Google Lighthouse tool available in the Dev tools kit of Google Chrome. The results are satisfactory.
+Upon deployment to GitHub pages, the webpage was teseted with the Google Lighthouse tool available in the Dev tools kit of Google Chrome. The results are satisfactory.
 
 ![lighthouse screenshot](./assets/images/readme/lighthouse-ss.png)
 
 ## Deployment
-The webpage was deployed to Github Pages by following these steps:
+The webpage was deployed to GitHub Pages by following these steps:
 * Go the the repository in GitHub
 * Click on the Settings link on the top menu
 * Select the Pages item on the left side menu
@@ -147,7 +147,7 @@ The webpage was deployed to Github Pages by following these steps:
 * GitHub will deploy the webpage and generate a link for public access
 * You can still push updates to GitHub, the updates will be automatically deployed to the live webpage, you can check the last deployed time on the same Pages tab where the link for live page is provided
 
-[Click here](https://aleksarc.github.io/p1/) to access this webpage.
+[Click here](https://aleksarc.GitHub.io/p1/) to access this webpage.
 
 
 ## References
@@ -161,7 +161,7 @@ The webpage was deployed to Github Pages by following these steps:
 
 - [Control opacity of a background image without impacting other elements](https://coder-coder.com/background-image-opacity/)
 
-- [Markdown guide to help builing this README.md file provided by Matt Cone on Github](https://github.com/mattcone/markdown-guide)
+- [Markdown guide to help builing this README.md file provided by Matt Cone on GitHub](https://GitHub.com/mattcone/markdown-guide)
 
 ## Credits
 
