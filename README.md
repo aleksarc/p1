@@ -4,7 +4,7 @@
  
 This webpage was built to showcase the work of the architect **Ivan Gauto**. It's an inviting simple and bright webpage designed to accommodate the architect's requirements for a minimalist visual, with easy navigation and focusing on the important content, his work. The portifolio section will cluminate by presenting some of Ivan's projects. The webpage also allows visitors to contact Ivan for quotations or to share interests in common.
 
-The webpage was built with responsiveness in mind so visitors with various devices can safely and easily navigate and enjoy the content.
+The webpage was built with responsiveness for the most common screen sizes so visitors with various devices can safely and easily navigate and enjoy the content.
 
 Welcome to Ivan's Portifolio webpage, enjoy your time navigating and take a moment to reach out to this brilliant architect.
 
