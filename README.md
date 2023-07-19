@@ -136,6 +136,19 @@ Upon deployment to Github pages, the webpage was teseted with the Google Lightho
 ![lighthouse screenshot](./assets/images/readme/lighthouse-ss.png)
 
 ## Deployment
+The webpage was deployed to Github Pages by following these steps:
+* Go the the repository in GitHub
+* Click on the Settings link on the top menu
+* Select the Pages item on the left side menu
+* Under Build and deployment, confirm that:
+    * Source = Deploy from a branch
+    * Branch = main /(root)
+    * Click Save
+* GitHub will deploy the webpage and generate a link for public access
+* You can still push updates to GitHub, the updates will be automatically deployed to the live webpage, you can check the last deployed time on the same Pages tab where the link for live page is provided
+
+[Click here](https://aleksarc.github.io/p1/) to access this webpage.
+
 
 ## References
 - This webpage was built with asistance of Code Institute professors and mentor as deliverable for "Project 1" of the course "Diploma in Full Stack Software Development (E-commerce Applications)". I extend here my gratitude for such support and material provided.
