@@ -18,44 +18,44 @@ The header is comprised of logo and nav bar with menu options for navigation. It
 ### The logo
 The logo was created with [Looka](https://looka.com/) and adjusted in [Adobe Photoshop Beta](https://www.adobe.com/ie/products/photoshop.html), it's cutomized to **Ivan Gauto**, the architect whose the page is all about!
 
-![header screenshot](./assets/images/readme/logo-ss.png)
+![logo screenshot](./assets/images/readme/logo-ss.png)
 
 ### Nav menu
 Easy navigation is very important to keep visitors engaged. The nav menu contains links to the various sections of the webpage and it's positioned on the top of the page within the header which also follows the visitor while scrolling down or up to make it easier to access other sections of the webpage.
 
-![header screenshot](./assets/images/readme/nav-ss.png)
+![nav screenshot](./assets/images/readme/nav-ss.png)
 
 ### Hero image and cover text
 As the face of the webpage, the hero image was created using [Adobe Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html). It reflects the day to day activities of an architect working with forms and light. The cover text is a citation from the famous architect [Le Corbusier](https://en.wikipedia.org/wiki/Le_Corbusier). The combination of both elements help the visitor to seamlessly grasp what the page is about.
 
-![header screenshot](./assets/images/readme/hero-ss.png)
+![hero screenshot](./assets/images/readme/hero-ss.png)
 
 ### Information section
 This section was developed with the intent to welcome visitors to contact the architect for any of the listed services, but also emphasizing that whatever design dream the visitor may have, it's achievable. This section may be complemented as necessary to contain even more services if desired.
 
-![header screenshot](./assets/images/readme/info-ss.png)
+![info screenshot](./assets/images/readme/info-ss.png)
 
 ### Portifolio section
 In this section the visitor can visualize the architect's portifolio. It's a very important section and future developments should allow for clicking on the project thumbnail to redirect the visitor to a full screen view of the images and detailed description of the architect's work.
 
-![header screenshot](./assets/images/readme/portifolio-ss.png)
+![portifolio screenshot](./assets/images/readme/portifolio-ss.png)
 
 ### Skills section
 The skills section enables the architect to show the most important technologies/tools with which he has experience. Each icon is a clickable link that will redirect the visitor to the specific tool webpage where the visitor can find more information about the tool.
 
-![header screenshot](./assets/images/readme/skills-ss.png)
+![skills screenshot](./assets/images/readme/skills-ss.png)
 
 ### Contact section
 Among the options for contacting the architect, the nav menu contains a link 'CONTACT' which will redirect the visitor to a contact form in a different page "contact.html". Allowing means for contacting is very important for the webpage as the architect is showcasing his work, and visitors may want to get in touch for a quotation or to discuss interests in common.
 
-![header screenshot](./assets/images/readme/contact-ss.png)
+![contact screenshot](./assets/images/readme/contact-ss.png)
 
 Because contact options are a must for the webpage, icons in the footer section are also clickable and will redirect the visitor to the architect's social networks, allow for sending email or a phone call. The footer section will be commented below.
 
 ### Footer
 This is the last section of the webpage and it's located at the bottom. It contains icons with the architect's social networks and means for contact along with the copyright statement which is standard for webpages. The icons are clickable and will redirect the visitor to the specific social network or mean of contact.
 
-![header screenshot](./assets/images/readme/footer-ss.png)
+![footer screenshot](./assets/images/readme/footer-ss.png)
 
 ## Sources
 - Webpage template provided by Code Institute: [CI full template](https://github.com/Code-Institute-Org/ci-full-template)
@@ -128,6 +128,12 @@ In all sizes tested, menus, icons and content are visible and readable confirmin
 Validation of the HTML code of both pages (index.html and contact.html) was done by using [W3C Markup Validation Service](https://validator.w3.org/) and the code was fully validated with an exception, one link (href) contained in the Skills section, for the icon 3DSmax, did not pass validation for containing | (pipes), however, Autodesk webpage uses these pipes to identify the product code and redirect the visitor to the specific subpage.
 
 The style.css file was validated by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and there were no errors found.
+
+### Google Lighthouse test
+
+Upon deployment to Github pages, the webpage was teseted with the Google Lighthouse tool available in the Dev tools kit of Google Chrome. The results are satisfactory.
+
+![lighthouse screenshot](./assets/images/readme/lighthouse-ss.png)
 
 ## Deployment
 
